@@ -1,0 +1,8 @@
+loading word2vec models
+performing K means cluster predictions
+Creating: 10 clusters.
+Time taken for K Means clustering: 2.6982920169830322 seconds.
+KMeans parameters: {'copy_x': True, 'n_init': 8, 'n_jobs': -1, 'precompute_distances': True, 'init': 'k-means++', 'random_state': None, 'n_clusters': 10, 'algorithm': 'auto', 'verbose': 0, 'max_iter': 300, 'tol': 0.0001}
+counting total words in each cluster
+scoring keyword list against vocabulary
+job complete!
