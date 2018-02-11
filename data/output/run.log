@@ -1,0 +1,106 @@
+beginning ngram vocab build
+beginning ngram vocab build
+collecting all words and their counts
+beginning ngram vocab build
+collecting all words and their counts
+beginning ngram vocab build
+collecting all words and their counts
+beginning ngram vocab build
+collecting all words and their counts
+PROGRESS: at sentence #0, processed 0 words and 0 word types
+PROGRESS: at sentence #10000, processed 200030 words and 92073 word types
+PROGRESS: at sentence #20000, processed 386208 words and 149151 word types
+PROGRESS: at sentence #30000, processed 583941 words and 202447 word types
+collected 225992 word types from a corpus of 684273 words (unigram + bigrams) and 35658 sentences
+using 225992 counts as vocab in Phrases<0 vocab, min_count=5, threshold=10.0, max_vocab_size=40000000>
+saving Phrases object under /home/rich/fun_projects/symptomatology_word2vec/data/output/bigrams.txt, separately None
+saved /home/rich/fun_projects/symptomatology_word2vec/data/output/bigrams.txt
+ngram vocab finished!
+beginning ngram vocab build
+beginning ngram vocab build
+collecting all words and their counts
+PROGRESS: at sentence #0, processed 0 words and 0 word types
+PROGRESS: at sentence #10000, processed 200030 words and 92073 word types
+PROGRESS: at sentence #20000, processed 386208 words and 149151 word types
+PROGRESS: at sentence #30000, processed 583941 words and 202447 word types
+collected 225992 word types from a corpus of 684273 words (unigram + bigrams) and 35658 sentences
+using 225992 counts as vocab in Phrases<0 vocab, min_count=5, threshold=10.0, max_vocab_size=40000000>
+saving Phrases object under /home/rich/fun_projects/symptomatology_word2vec/data/output/bigram_model, separately None
+saved /home/rich/fun_projects/symptomatology_word2vec/data/output/bigram_model
+collecting all words and their counts
+PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+PROGRESS: at sentence #10000, processed 189086 words, keeping 14451 word types
+PROGRESS: at sentence #20000, processed 365045 words, keeping 20367 word types
+PROGRESS: at sentence #30000, processed 552122 words, keeping 25072 word types
+collected 26874 word types from a corpus of 646302 raw words and 35658 sentences
+Loading a fresh vocabulary
+min_count=5 retains 8719 unique words (32% of original 26874, drops 18155)
+min_count=5 leaves 616236 word corpus (95% of original 646302, drops 30066)
+deleting the raw counts dictionary of 26874 items
+sample=0.001 downsamples 45 most-common words
+downsampling leaves estimated 398281 word corpus (64.6% of prior 616236)
+estimated required memory for 8719 words and 100 dimensions: 11334700 bytes
+resetting layer weights
+saving Word2Vec object under /home/rich/fun_projects/symptomatology_word2vec/data/output/w2v_model, separately None
+not storing attribute vectors_norm
+not storing attribute cum_table
+saved /home/rich/fun_projects/symptomatology_word2vec/data/output/w2v_model
+ngram vocab finished!
+beginning ngram vocab build
+collecting all words and their counts
+PROGRESS: at sentence #0, processed 0 words and 0 word types
+PROGRESS: at sentence #10000, processed 200030 words and 92073 word types
+PROGRESS: at sentence #20000, processed 386208 words and 149151 word types
+PROGRESS: at sentence #30000, processed 583941 words and 202447 word types
+collected 225992 word types from a corpus of 684273 words (unigram + bigrams) and 35658 sentences
+using 225992 counts as vocab in Phrases<0 vocab, min_count=5, threshold=10.0, max_vocab_size=40000000>
+saving Phrases object under /home/rich/fun_projects/symptomatology_word2vec/data/output/bigram_model, separately None
+saved /home/rich/fun_projects/symptomatology_word2vec/data/output/bigram_model
+collecting all words and their counts
+PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+PROGRESS: at sentence #10000, processed 189086 words, keeping 14451 word types
+PROGRESS: at sentence #20000, processed 365045 words, keeping 20367 word types
+PROGRESS: at sentence #30000, processed 552122 words, keeping 25072 word types
+collected 26874 word types from a corpus of 646302 raw words and 35658 sentences
+Loading a fresh vocabulary
+min_count=5 retains 8719 unique words (32% of original 26874, drops 18155)
+min_count=5 leaves 616236 word corpus (95% of original 646302, drops 30066)
+deleting the raw counts dictionary of 26874 items
+sample=0.001 downsamples 45 most-common words
+downsampling leaves estimated 398281 word corpus (64.6% of prior 616236)
+estimated required memory for 8719 words and 100 dimensions: 11334700 bytes
+resetting layer weights
+saving Word2Vec object under /home/rich/fun_projects/symptomatology_word2vec/data/output/w2v_model, separately None
+not storing attribute vectors_norm
+not storing attribute cum_table
+saved /home/rich/fun_projects/symptomatology_word2vec/data/output/w2v_model
+ngram vocab finished!
+beginning ngram vocab build
+collecting all words and their counts
+PROGRESS: at sentence #0, processed 0 words and 0 word types
+PROGRESS: at sentence #10000, processed 200030 words and 92073 word types
+PROGRESS: at sentence #20000, processed 386208 words and 149151 word types
+PROGRESS: at sentence #30000, processed 583941 words and 202447 word types
+collected 225992 word types from a corpus of 684273 words (unigram + bigrams) and 35658 sentences
+using 225992 counts as vocab in Phrases<0 vocab, min_count=5, threshold=10.0, max_vocab_size=40000000>
+saving Phrases object under /home/rich/fun_projects/symptomatology_word2vec/data/output/bigram_model, separately None
+saved /home/rich/fun_projects/symptomatology_word2vec/data/output/bigram_model
+collecting all words and their counts
+PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+PROGRESS: at sentence #10000, processed 189086 words, keeping 14451 word types
+PROGRESS: at sentence #20000, processed 365045 words, keeping 20367 word types
+PROGRESS: at sentence #30000, processed 552122 words, keeping 25072 word types
+collected 26874 word types from a corpus of 646302 raw words and 35658 sentences
+Loading a fresh vocabulary
+min_count=5 retains 8719 unique words (32% of original 26874, drops 18155)
+min_count=5 leaves 616236 word corpus (95% of original 646302, drops 30066)
+deleting the raw counts dictionary of 26874 items
+sample=0.001 downsamples 45 most-common words
+downsampling leaves estimated 398281 word corpus (64.6% of prior 616236)
+estimated required memory for 8719 words and 100 dimensions: 11334700 bytes
+resetting layer weights
+saving Word2Vec object under /home/rich/fun_projects/symptomatology_word2vec/data/output/w2v_model, separately None
+not storing attribute vectors_norm
+not storing attribute cum_table
+saved /home/rich/fun_projects/symptomatology_word2vec/data/output/w2v_model
+ngram vocab finished!
