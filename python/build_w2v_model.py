@@ -4,7 +4,7 @@ import nltk
 import gensim
 import logging
 import argparse
-
+from nltk.corpus import stopwords
 
 
 def main(args):
@@ -33,7 +33,7 @@ def main(args):
     gensimLogger.addHandler(fh)
 
 
-    model = gensim.models.Word2Vec(iter=args.epochs, workers=8)
+    model = gensim.models.Word2Vec(iter=args.epochs, workers=8,min_count=1)
 
     logger.info('beginning ngram vocab build')
 
@@ -41,7 +41,7 @@ def main(args):
     bigramGenerator= DiskSentenceGenerator(args.inputDir, logger)
     # trigramGenerator= unigramGenerator.copy()
 
-    bigramTransformer = gensim.models.Phrases(bigramGenerator)
+    bigramTransformer = gensim.models.Phrases(bigramGenerator,threshold=0.2,common_terms=set(stopwords.words('english')))
 
     bigramTransformer.save(os.path.join(args.outputDir,'bigram_model'))
 

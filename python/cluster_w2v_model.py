@@ -1,6 +1,7 @@
 import argparse
 import sys
 
+import matplotlib.pyplot as plt
 import helper_functions as hf
 import io_helper
 from gensim import models
@@ -20,10 +21,7 @@ def main(args):
     parser.add_argument("--clusterCount",help="number of clusters to produce",type=int)
     parser.add_argument("--termList",help="terms to score cluster",nargs='+')
 
-
     args = parser.parse_args(args)
-
-
 
     rootPath =args.outputDir
     num_clusters = args.clusterCount
@@ -50,6 +48,7 @@ def main(args):
     result_df.to_csv(args.outputDir +'/results.csv')
     outputAllClusters(num_clusters, rootPath, word_centroid_map)
 
+    plotResults(result_df)
     logger.info("job complete!")
 
 
@@ -105,6 +104,28 @@ def performKmeansClustering( logger, model, n_init, num_clusters, word_vectors):
     logger.info("Time taken for K Means clustering: %s seconds.", elapsed)
     logger.info("KMeans parameters: %s", kmeans_clustering.get_params())
     return word_centroid_map
+
+def plotResults(result_df):
+    plt.figure(figsize=(12,10))
+    plt.subplots_adjust(bottom=0.1)
+    plt.scatter(result_df['clus_wc_log'], result_df['score_norm'], marker='o',
+                c=result_df['score_norm'], cmap='RdYlGn', s=40)
+    plt.axis(ymax=(max(result_df['score_norm']) *1.1),ymin=-0.0002 )
+
+    #std dev lines and mean score
+    mad6 = result_df['score_norm'].mad() * 6
+    mad3 = result_df['score_norm'].mad() * 3
+    median = result_df['score_norm'].median()
+
+    plt.axhline(y=mad6, color='r')
+    plt.axhline(y=mad3, color='b')
+    plt.axhline(y=median, color='m')
+    plt.xlabel('log10 cluster size')
+    plt.ylabel('Relevance score')
+    plt.annotate('Median', xy=(5,median))
+    plt.annotate('6 MAD', xy=(5, mad6))
+    plt.annotate('3 MAD', xy=(5, mad3))
+    plt.show()
 
 if __name__ == "__main__":
     main(sys.argv[1:])

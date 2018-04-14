@@ -1,88 +1,72 @@
 loading word2vec models
-loading word2vec models
-loading word2vec models
-loading word2vec models
-loading word2vec models
 performing K means cluster predictions
-Creating: 10 clusters.
-loading word2vec models
-performing K means cluster predictions
-Creating: 10 clusters.
+Creating: 30 clusters.
+Time taken for K Means clustering: 1.2786555290222168 seconds.
+KMeans parameters: {'n_clusters': 30, 'n_jobs': -1, 'random_state': None, 'verbose': 0, 'tol': 0.0001, 'max_iter': 300, 'precompute_distances': True, 'copy_x': True, 'n_init': 8, 'algorithm': 'auto', 'init': 'k-means++'}
+counting total words in each cluster
+scoring keyword list against vocabulary
+job complete!
 loading word2vec models
 performing K means cluster predictions
-Creating: 10 clusters.
-Time taken for K Means clustering: 2.130087375640869 seconds.
-KMeans parameters: {'algorithm': 'auto', 'n_jobs': -1, 'precompute_distances': True, 'init': 'k-means++', 'tol': 0.0001, 'copy_x': True, 'n_clusters': 10, 'max_iter': 300, 'verbose': 0, 'n_init': 8, 'random_state': None}
+Creating: 25 clusters.
+Time taken for K Means clustering: 1.1785690784454346 seconds.
+KMeans parameters: {'verbose': 0, 'random_state': None, 'algorithm': 'auto', 'n_clusters': 25, 'init': 'k-means++', 'max_iter': 300, 'copy_x': True, 'precompute_distances': True, 'tol': 0.0001, 'n_jobs': -1, 'n_init': 8}
 counting total words in each cluster
 scoring keyword list against vocabulary
+job complete!
 loading word2vec models
 performing K means cluster predictions
-Creating: 10 clusters.
-Time taken for K Means clustering: 2.2892673015594482 seconds.
-KMeans parameters: {'precompute_distances': True, 'verbose': 0, 'max_iter': 300, 'n_clusters': 10, 'algorithm': 'auto', 'tol': 0.0001, 'n_jobs': -1, 'random_state': None, 'copy_x': True, 'init': 'k-means++', 'n_init': 8}
+Creating: 25 clusters.
+Time taken for K Means clustering: 1.275834560394287 seconds.
+KMeans parameters: {'n_init': 8, 'precompute_distances': True, 'init': 'k-means++', 'copy_x': True, 'n_clusters': 25, 'verbose': 0, 'max_iter': 300, 'random_state': None, 'n_jobs': -1, 'tol': 0.0001, 'algorithm': 'auto'}
 counting total words in each cluster
 scoring keyword list against vocabulary
 job complete!
+loading word2vec models
 performing K means cluster predictions
-Creating: 10 clusters.
-Time taken for K Means clustering: 2.2929654121398926 seconds.
-KMeans parameters: {'precompute_distances': True, 'verbose': 0, 'max_iter': 300, 'n_clusters': 10, 'algorithm': 'auto', 'tol': 0.0001, 'n_jobs': -1, 'random_state': None, 'copy_x': True, 'init': 'k-means++', 'n_init': 8}
+Creating: 50 clusters.
+Time taken for K Means clustering: 2.0723395347595215 seconds.
+KMeans parameters: {'n_init': 8, 'random_state': None, 'algorithm': 'auto', 'copy_x': True, 'init': 'k-means++', 'tol': 0.0001, 'verbose': 0, 'n_clusters': 50, 'max_iter': 300, 'n_jobs': -1, 'precompute_distances': True}
 counting total words in each cluster
 scoring keyword list against vocabulary
 job complete!
+loading word2vec models
 performing K means cluster predictions
-Creating: 10 clusters.
-Time taken for K Means clustering: 2.095940113067627 seconds.
-KMeans parameters: {'precompute_distances': True, 'verbose': 0, 'max_iter': 300, 'n_clusters': 10, 'algorithm': 'auto', 'tol': 0.0001, 'n_jobs': -1, 'random_state': None, 'copy_x': True, 'init': 'k-means++', 'n_init': 8}
+Creating: 50 clusters.
+Time taken for K Means clustering: 2.273439884185791 seconds.
+KMeans parameters: {'tol': 0.0001, 'max_iter': 300, 'n_init': 8, 'algorithm': 'auto', 'precompute_distances': True, 'n_clusters': 50, 'n_jobs': -1, 'copy_x': True, 'random_state': None, 'verbose': 0, 'init': 'k-means++'}
 counting total words in each cluster
 scoring keyword list against vocabulary
 job complete!
+loading word2vec models
 performing K means cluster predictions
-Creating: 10 clusters.
-Time taken for K Means clustering: 2.2549872398376465 seconds.
-KMeans parameters: {'precompute_distances': True, 'verbose': 0, 'max_iter': 300, 'n_clusters': 10, 'algorithm': 'auto', 'tol': 0.0001, 'n_jobs': -1, 'random_state': None, 'copy_x': True, 'init': 'k-means++', 'n_init': 8}
+Creating: 50 clusters.
+Time taken for K Means clustering: 2.578158378601074 seconds.
+KMeans parameters: {'precompute_distances': True, 'copy_x': True, 'n_init': 8, 'algorithm': 'auto', 'n_clusters': 50, 'random_state': None, 'n_jobs': -1, 'max_iter': 300, 'verbose': 0, 'init': 'k-means++', 'tol': 0.0001}
 counting total words in each cluster
 scoring keyword list against vocabulary
 job complete!
+loading word2vec models
 performing K means cluster predictions
-Creating: 10 clusters.
-Time taken for K Means clustering: 2.0958051681518555 seconds.
-KMeans parameters: {'precompute_distances': True, 'verbose': 0, 'max_iter': 300, 'n_clusters': 10, 'algorithm': 'auto', 'tol': 0.0001, 'n_jobs': -1, 'random_state': None, 'copy_x': True, 'init': 'k-means++', 'n_init': 8}
+Creating: 30 clusters.
+Time taken for K Means clustering: 7.620455980300903 seconds.
+KMeans parameters: {'n_jobs': -1, 'random_state': None, 'n_clusters': 30, 'precompute_distances': True, 'n_init': 8, 'verbose': 0, 'copy_x': True, 'algorithm': 'auto', 'max_iter': 300, 'init': 'k-means++', 'tol': 0.0001}
 counting total words in each cluster
 scoring keyword list against vocabulary
 job complete!
+loading word2vec models
 performing K means cluster predictions
-Creating: 10 clusters.
-Time taken for K Means clustering: 1.895160436630249 seconds.
-KMeans parameters: {'precompute_distances': True, 'verbose': 0, 'max_iter': 300, 'n_clusters': 10, 'algorithm': 'auto', 'tol': 0.0001, 'n_jobs': -1, 'random_state': None, 'copy_x': True, 'init': 'k-means++', 'n_init': 8}
+Creating: 30 clusters.
+Time taken for K Means clustering: 8.429256677627563 seconds.
+KMeans parameters: {'verbose': 0, 'n_jobs': -1, 'tol': 0.0001, 'init': 'k-means++', 'n_clusters': 30, 'copy_x': True, 'random_state': None, 'max_iter': 300, 'algorithm': 'auto', 'n_init': 8, 'precompute_distances': True}
 counting total words in each cluster
 scoring keyword list against vocabulary
 job complete!
+loading word2vec models
 performing K means cluster predictions
-Creating: 10 clusters.
-Time taken for K Means clustering: 2.1968326568603516 seconds.
-KMeans parameters: {'precompute_distances': True, 'verbose': 0, 'max_iter': 300, 'n_clusters': 10, 'algorithm': 'auto', 'tol': 0.0001, 'n_jobs': -1, 'random_state': None, 'copy_x': True, 'init': 'k-means++', 'n_init': 8}
-counting total words in each cluster
-scoring keyword list against vocabulary
-job complete!
-performing K means cluster predictions
-Creating: 10 clusters.
-Time taken for K Means clustering: 2.1996824741363525 seconds.
-KMeans parameters: {'precompute_distances': True, 'verbose': 0, 'max_iter': 300, 'n_clusters': 10, 'algorithm': 'auto', 'tol': 0.0001, 'n_jobs': -1, 'random_state': None, 'copy_x': True, 'init': 'k-means++', 'n_init': 8}
-counting total words in each cluster
-scoring keyword list against vocabulary
-job complete!
-performing K means cluster predictions
-Creating: 10 clusters.
-Time taken for K Means clustering: 2.195844888687134 seconds.
-KMeans parameters: {'precompute_distances': True, 'verbose': 0, 'max_iter': 300, 'n_clusters': 10, 'algorithm': 'auto', 'tol': 0.0001, 'n_jobs': -1, 'random_state': None, 'copy_x': True, 'init': 'k-means++', 'n_init': 8}
-counting total words in each cluster
-scoring keyword list against vocabulary
-job complete!
-performing K means cluster predictions
-Creating: 10 clusters.
-Time taken for K Means clustering: 2.1998825073242188 seconds.
-KMeans parameters: {'precompute_distances': True, 'verbose': 0, 'max_iter': 300, 'n_clusters': 10, 'algorithm': 'auto', 'tol': 0.0001, 'n_jobs': -1, 'random_state': None, 'copy_x': True, 'init': 'k-means++', 'n_init': 8}
+Creating: 30 clusters.
+Time taken for K Means clustering: 7.7235939502716064 seconds.
+KMeans parameters: {'tol': 0.0001, 'algorithm': 'auto', 'n_clusters': 30, 'random_state': None, 'copy_x': True, 'verbose': 0, 'max_iter': 300, 'init': 'k-means++', 'precompute_distances': True, 'n_jobs': -1, 'n_init': 8}
 counting total words in each cluster
 scoring keyword list against vocabulary
 job complete!

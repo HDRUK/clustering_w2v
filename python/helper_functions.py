@@ -14,7 +14,7 @@ import copy
 from scipy.spatial.distance import cdist, pdist
 import pandas as pd
 import io_helper as ioh
-import joblib
+from sklearn.externals import joblib
 ###############clustering functions
 def doClustering(w2vPath,savePath):
     start = time.time() # Start time
