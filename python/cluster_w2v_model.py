@@ -43,7 +43,9 @@ def main(args):
     clusWC = performClusterWordCounts(logger, word_centroid_map)
 
     termlist = args.termList
+    #count the hits in each cluster
     df = performKeywordClusterCounts(logger, word_centroid_map,termlist)
+    #score clusters according to the algorithm described in the paper
     result_df = performClusterAnalysis(clusWC, df)
     result_df.to_csv(args.outputDir +'/results.csv')
     outputAllClusters(num_clusters, rootPath, word_centroid_map)
