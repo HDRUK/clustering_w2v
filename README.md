@@ -1,4 +1,4 @@
-#Knowledge discovery for Deep Phenotyping serious mental illness from Electronic Mental Health records
+# Knowledge discovery for Deep Phenotyping serious mental illness from Electronic Mental Health records
 
 
 This repository is in support of my paper @
@@ -11,12 +11,12 @@ Note, since the original paper makes use of text data from electronic medical re
 this on the intended dataset. Instead, I use a toy example, using the text of Les Miserables as a dataset (courtesy of
 Project Gutenberg)
 
-##Disclaimer
+## Disclaimer
 
 This is research code! No warranty etc..
 
 
-##Dependencies
+## Dependencies
 
 gensim
 pandas
@@ -25,7 +25,7 @@ matplotlib
 nltk
 
 
-##Overview
+## Overview
 
 To build a Word2Vec model,
 
@@ -36,7 +36,7 @@ python build_w2v_model.py --inputDir <path> --outputDir <path> --epochs 10
 inputDir should be a directory containing raw text (I'm using data/input)
 
 
-##Clustering and scoring
+## Clustering and scoring
 
 With an embedding model built, we can apply clustering algorithms to group together similar concepts. I use KMeans,
  as it scales well (to estimate K, I suggest calculating minimum centroid distance, although other techniques exists).
