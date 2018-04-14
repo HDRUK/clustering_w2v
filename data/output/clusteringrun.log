@@ -70,3 +70,35 @@ KMeans parameters: {'tol': 0.0001, 'algorithm': 'auto', 'n_clusters': 30, 'rando
 counting total words in each cluster
 scoring keyword list against vocabulary
 job complete!
+loading word2vec models
+performing K means cluster predictions
+Creating: 30 clusters.
+Time taken for K Means clustering: 8.742750406265259 seconds.
+KMeans parameters: {'n_clusters': 30, 'n_init': 8, 'random_state': None, 'init': 'k-means++', 'precompute_distances': True, 'verbose': 0, 'algorithm': 'auto', 'tol': 0.0001, 'n_jobs': -1, 'max_iter': 300, 'copy_x': True}
+counting total words in each cluster
+scoring keyword list against vocabulary
+job complete!
+loading word2vec models
+performing K means cluster predictions
+Creating: 30 clusters.
+Time taken for K Means clustering: 8.73163390159607 seconds.
+KMeans parameters: {'n_clusters': 30, 'tol': 0.0001, 'verbose': 0, 'random_state': None, 'algorithm': 'auto', 'n_jobs': -1, 'n_init': 8, 'precompute_distances': True, 'copy_x': True, 'init': 'k-means++', 'max_iter': 300}
+counting total words in each cluster
+scoring keyword list against vocabulary
+job complete!
+loading word2vec models
+performing K means cluster predictions
+Creating: 30 clusters.
+Time taken for K Means clustering: 6.936195373535156 seconds.
+KMeans parameters: {'verbose': 0, 'tol': 0.0001, 'copy_x': True, 'n_init': 8, 'n_jobs': -1, 'algorithm': 'auto', 'n_clusters': 30, 'precompute_distances': True, 'init': 'k-means++', 'max_iter': 300, 'random_state': None}
+counting total words in each cluster
+scoring keyword list against vocabulary
+job complete!
+loading word2vec models
+performing K means cluster predictions
+Creating: 30 clusters.
+Time taken for K Means clustering: 100.04412817955017 seconds.
+KMeans parameters: {'init': 'k-means++', 'max_iter': 300, 'algorithm': 'auto', 'n_clusters': 30, 'random_state': None, 'copy_x': True, 'tol': 0.0001, 'n_jobs': -1, 'n_init': 100, 'precompute_distances': True, 'verbose': 0}
+counting total words in each cluster
+scoring keyword list against vocabulary
+job complete!

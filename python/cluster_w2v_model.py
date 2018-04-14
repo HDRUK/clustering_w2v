@@ -25,7 +25,7 @@ def main(args):
 
     rootPath =args.outputDir
     num_clusters = args.clusterCount
-    n_init =8
+    n_init =100
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
     logger = logging.getLogger('workflow')
 
@@ -48,7 +48,7 @@ def main(args):
     result_df.to_csv(args.outputDir +'/results.csv')
     outputAllClusters(num_clusters, rootPath, word_centroid_map)
 
-    plotResults(result_df)
+    plotResults(result_df,args.outputDir +'/plot.png')
     logger.info("job complete!")
 
 
@@ -105,7 +105,7 @@ def performKmeansClustering( logger, model, n_init, num_clusters, word_vectors):
     logger.info("KMeans parameters: %s", kmeans_clustering.get_params())
     return word_centroid_map
 
-def plotResults(result_df):
+def plotResults(result_df,path):
     plt.figure(figsize=(12,10))
     plt.subplots_adjust(bottom=0.1)
     plt.scatter(result_df['clus_wc_log'], result_df['score_norm'], marker='o',
@@ -125,7 +125,8 @@ def plotResults(result_df):
     plt.annotate('Median', xy=(5,median))
     plt.annotate('6 MAD', xy=(5, mad6))
     plt.annotate('3 MAD', xy=(5, mad3))
-    plt.show()
+    plt.savefig(path)
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])
